@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.spinner-box {
+	display: none;
+}
+
+header {
+	background-color: #3f1052;
+}
+
+
+.form-select {
+	width: 15rem;
+	height: 36px;
+}
+
+.tab-ui {
+	/*background-color: #3f1052;*/
+}
+
+.tab-ui__lists {
+	position: relative;
+	padding: 0 5rem;
+	width: 100%;
+	background-color: #3f1052;
+}
+
+.tab-ui__item {
+	text-transform: uppercase;
+	padding: 5px 2rem;
+	color: white;
+	cursor: pointer;
+}
+
+.tab-ui__item.active {
+	background: #381048;
+	/* border-bottom: 2px solid white; */
+}
+
+.tab-ui__item:hover {
+	background: #381048;
+}
+
+.line-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100px;
+	height: 5px;
+	background-color: white;
+	transition: 0.5s;
+	border-radius: 2px
+}
+
+/*Tab UI content*/
+
+.tab-ui__content-item {
+	display: none;
+}
+
+.tab-ui__content-item.active {
+	display: block
+}
+
+.tbody-standing img {
+	width: 25px;
+}
