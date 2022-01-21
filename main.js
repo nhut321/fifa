@@ -45,7 +45,7 @@ fetch(urlPremier)
 			      <td>${v.overall_league_L}</td>
 			      <td>${v.overall_league_GF}</td>
 			      <td>${v.overall_league_GA}</td>
-			      <td>${v.overall_league_PTS}</td>
+			      <td style='font-weight: bold'>${v.overall_league_PTS}</td>
 				</tr>
 
 			`
@@ -92,7 +92,7 @@ fetch(urlPremier)
 						<td>${v.overall_league_L}</td>
 						<td>${v.overall_league_GF}</td>
 						<td>${v.overall_league_GA}</td>
-						<td>${v.overall_league_PTS}</td>
+						<td style='font-weight: bold'>${v.overall_league_PTS}</td>
 						</tr>
 
 					`
